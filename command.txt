@@ -1,0 +1,32 @@
+    1  ioreg -lw0 | grep IODisplayPrefsKey
+    2  ls
+    3  ls
+    4  git -v
+    5  git -v
+    6  git init
+    7  git status
+    8  git add .
+    9  git commit -m "initial commit"
+   10  git remote add origin https://github.com/jeffreyasante/jeffs-blog.git
+   11  git push -u origin master
+   12  history > commands.text
+   13  git add .
+   14  git status
+   15  ls
+   16  cd ..
+   17  ls
+   18  mkdir Jeffreysblog
+   19  cp ./jeffs\ blog.html/ ./jeffreysblog
+   20  ls
+   21  touch index.html
+   22  touch styles.css
+   23  ls
+   24  code .
+   25  ls
+   26  ls
+   27  git init
+   28  git add
+   29  git add .
+   30  git commit -m
+   31  git commit -m "initial commit"
+   32  history > command.txt

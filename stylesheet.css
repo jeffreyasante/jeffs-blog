@@ -9,3 +9,6 @@ div.jumbotron {
     height: 21em !important;
 }
 
+body {
+    font-family: 'Fredoka One', cursive;
+}
