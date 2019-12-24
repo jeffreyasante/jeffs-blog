@@ -1,0 +1,294 @@
+   20  git add .
+   21  git commit -m "added mongos ObjectId to fix findOne query issue"
+   22  git status
+   23  git pull
+   25  git status
+   26  git add .
+   27  git commit -m "angular upgrade WIP"
+   28  git push
+   29  git push --set-upstream origin angular-upgrade
+   30  git log --oneline
+   31  git status
+   32  git fetch
+   33  git branch -a
+   34  git checkout -b angular-upgrade
+   35  git checkout project-aros
+   36  git pull
+   37  git checkout angular-upgrade
+   42  git add .
+   43  git commit -m "updated angular-cli + angular core package"
+   45  git add .
+   46  git commit -m "updated angular material"
+   48  git status
+   49  git add .
+   50  git log --oneline
+   51  git status
+   52  git commit -m "more updates to angular material"
+   54  git add .
+   55  git commit -m "viewChild explicitly set to trigger after change detection, imported DOCUMENT from correct place"
+   58  git add .
+   59  git commit -m "many styling changes + working on the create of CREATE buckets crud path"
+   60  git push
+   61  git add .
+   62  git commit -m "abandoned idea of using front end store, too much hassle, updated create flow"
+   63  git push
+   65  git branhch -a
+   66  git branch -a
+   67  git log --oneline
+   68  git checkout feature-tros
+   69  git log --oneline
+   70  git status
+   71  git pull
+   82  git add .
+   83  git commit -m "removed console.logs"
+   84  git add ,
+   85  git add .
+   86  git status
+   87  git commit -m "tros-333 personal details validation update"
+   88  git add .
+   89  git commit -m "tros-330 personal details update"
+   90  git push
+   91  git pull
+   92  git log --oneline
+   93  git push
+   98  git add .
+   99  git commit -m "added updater service"
+  100  git add .
+  101  git commit -m "removed all references to front-end store, added error handling to add subtask"
+  102  git add .
+  103  git commit -m "added getBucket"
+  104  git push
+  109  git add .
+  110  git commit -m "minor styling changes"
+  111  git push
+  115  git add .
+  116  git commit -m "added correct icons based on bucket status"
+  117  git add .
+  118  git commit -m "added animate.css, few minor styling enhancements"
+  122  git add .
+  123  git commit -m "cleaned up buckets.html, implemented search pipe"
+  124  git add .
+  125  git commit -m "added delete bucket functionality"
+  126  git push
+  127  git add .
+  128  git commit -m "completed crud for buckets"
+  129  git push
+  130  git push
+  146  git add .
+  147  git commit -m 'clean up of unused code'
+  148  git status
+  149  git push
+  150  git checkout -b complete-styling-overhaul
+  151  git add .
+  152  git commit -m "restyled toolbar and main page"
+  153  git add .
+  154  git commit -m "styled home page correctly"
+  155  git push
+  156  git push --set-upstream origin complete-styling-overhaul
+  157  git add .
+  158  git commit -m "added subtasks to main page"
+  159  git add .
+  160  git commit -m 'restyled buckets page based on home page'
+  163  git add .
+  164  git commit -m "added createBucket component, WIP"
+  165  git push
+  166  git status
+  167  git checkout master
+  168  git branch -a
+  169  git merge complete-styling-overhaul
+  170  git push
+  172  git add .
+  173  git commit -m 'created bucket functionality, uodated title based on route, added id, parent and detail members to subtasks, styled mat-dialog'
+  174  git push
+  179  git add .
+  180  git commit -m "implemented edit bucket modal"
+  181  git push
+  183  git add .
+  188  git add .
+  189  git commit -m "moved panel to buckets folder, organised panel to save, styled bucket-detail, updated bucket progress bar"
+  190  git push
+  191  git status
+  192  git add .
+  193  git commit -m "removed deleted panel comp from shared"
+  194  git add .
+  205  git add .
+  206  git commit -m "added auth guard, refactored buckets html, added login screen"
+  210  git add .
+  211  git commit -m "half working social login"
+  212  git add .
+  213  git commit -m "working social login" 
+  224  git add .
+  225  git commit -m "initial color picker code"
+  226  git add .
+  236  git add .
+  237  git commit -m "final stage of successful basic social login"
+  238  git push
+  239  git add .
+  240  git commit -m "temp store client ID in localstorage"
+  241  git push
+  242  git add .
+  243  git commit -m "removed unused code"
+  244  git push
+  245  git push
+  280  git pull
+  281  git log --oneline
+  282  git checkout angular-upgrade
+  283  git status
+  284  git pull
+  287  git status
+  288  git checkout project-aros
+  289  git pull
+  290  git status
+  291  git ppull
+  292  git pull
+  293  git branch -a
+  294  git pull -F
+  295  git pull
+  296  git checkout feature-tros
+  300  git staut
+  301  git status
+  302  git checkout angular-upgrade
+  308  git add .
+  309  git commit -m "removed deprecated scrolling package, added and tested new"
+  311  git status
+  312  git add .
+  313  git commit -m "tried import syntax for lazy loaded modules"
+  314  git commit --amend -m "successful working angular 8 application"
+  315  git status
+  316  git push
+  317  git stastus
+  318  git status
+  319  git checkout feature-tros
+  321  git status
+  322  git add .
+  323  git commit -m "fix for tros-310"
+  324  git status
+  325  git push
+  327  git add .
+  328  git commit -m "added background color to each bucket"
+  329  git push
+  330  git add .
+  331  git commit -m "styling of main button"
+  332  git add .
+  333  git commit -m "small styling change to buttons"
+  351  git add .
+  352  git commit -m "updated styles for panel"
+  353  git push
+  356  git add .
+  357  git commit -m "tros-397"
+  358  git add .
+  359  git commit -m "tros-400, tros-401"
+  360  git add .
+  361  git commit -m "tros-402"
+  362  git add .
+  363  git commit -m "tros-403/404"
+  364  git push
+  365  git add .
+  366  git commit -m "can only allow 4 work experiences"
+  367  git add .
+  368  git commit -m "update to application type step tooltip text"
+  369  git checkout project-aros
+  370  git pull
+  372  git branch -a
+  373  git checkout feature-tros
+  374  git status
+  375  git log --oneline
+  376  git push
+  378  git add .
+  379  git commit -m "troa-406/408"
+  380  git add .
+  381  git commit -m "tros-409/410"
+  382  git push
+  383  git add .
+  384  git commit -m "tros-415/416"
+  385  git push
+  386  git add .
+  387  git commit -m "tros-419"
+  388  git add .
+  389  git commit -m "tros-421"
+  390  git add .
+  391  git commit -m "tros-425"
+  392  git push
+  393  git add .
+  394  git commit -m "tros-426"
+  395  git log --oneline
+  396  git add .
+  397  git commit -m "tros-442"
+  398  git add .
+  399  git commit -m "tros-428 WIP"
+  400  git push
+  401  git pull
+  402  git log --oneline
+  403  git push
+  407  git branch -a
+  409  git checkout feature-tros
+  413  git add .
+  414  git commit -m "tros-428"
+  415  git log --oneline
+  416  git add .
+  417  git commit -m "tros-399"
+  418  git push
+  419  git pull
+  420  git log --oneline
+  421  git push
+  422  git status
+  423  git checkout project-aros
+  424  git branch -a
+  425  git fetch
+  426  git branch -a
+  427  git checkout AROS-20
+  428  git staut
+  429  git status
+  430  git add .
+  431  git commit -m "tros-447"
+  432  git add .
+  433  git commit -m "tros-446"
+  434  git push
+  435  git pull
+  436  git status
+  437  git push
+  438  git checkout aros-20
+  439  git checkout feature-tros
+  440  git checkout aros-20
+  441  git log --oneline
+  444  git pull
+  445  git pull origin AROS-20
+  448  git checkout project-aros
+  451  git push
+  452  git checkout project-aros
+  453  git branch -a
+  454  git add .
+  455  git commit -m "tros-429"
+  456  git add .
+  457  git commit -m "tros-428 fix"
+  458  git push
+  459  git pull
+  460  git push
+  462  git status
+  463  git add .
+  464  git commit -m "tros-415"
+  465  git push
+  466  git add .
+  467  git commit -m "tros-451"
+  468  git log --oneline
+  469  git push
+  471  git pull
+  472  git push
+  473  git log --oneline
+  474  git add .
+  475  git commit -m "brief fix for tros-456 WIP"
+  476  git push
+  477  git branch -a
+  478  git add .
+  479  git commit -m "tros-451"
+  480  git add .
+  481  git commit -m "tros-413"
+  482  git push
+  496  git clone https://github.com/jeffreyasante/jeffs-blog.git
+  501  git pull
+  506  git clone https://github.com/jeffreyasante/jeffs-blog.git
+  514  git add .
+  515  git commit -m "changed jumbotron height"
+  516  git log --oneline
+  517  git status
+  519  history | grep "git" > commands.txt
