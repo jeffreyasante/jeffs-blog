@@ -32,9 +32,13 @@ body {
     padding: 20px 170px;
 }
 
-.dropdown:hover dropdown-menu{
+.dropdown:hover div.dropdown-menu{
     text-decoration: none;
+        display: block;
+}
 
+.dropdown-menu{
+    display: none;
 }
 
 .card-body {
