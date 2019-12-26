@@ -6,9 +6,21 @@
 
 
 div.jumbotron {
-    height: 21em !important;
+    background: url(pics/titlepic2.jpg) center;
+    background-size: cover;
+    height: 35em !important;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    
 }
 
+.display-4 {
+    color: whitesmoke;
+}
+
+.lead.active {
+    color: whitesmoke;
+}
 body {
     font-family: 'Fredoka One', cursive;
 }
@@ -16,3 +28,24 @@ body {
 /* .jeff-size {
     font-size: 10em;
 } */
+.navbar{
+    padding: 20px 170px;
+}
+
+.dropdown:hover dropdown-menu{
+    text-decoration: none;
+
+}
+
+.card-body {
+    background: #111236;
+
+}
+.card-title {
+    color: aliceblue;
+}
+
+.card-text {
+    color: #FFB54D;
+}
+

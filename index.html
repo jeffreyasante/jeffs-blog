@@ -9,70 +9,94 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="stylesheet.css">
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
-    <title>Hello, world!</title>
+    <title>Jeffrey's Travel Blog</title>
   </head>
   <body>
+    <!--HOME NAV BUTTON-->
     <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">Home</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-        </ul>
+<!--DESTINATIONS NAV BUTTON-->
+      <div class="dropdown">
+        <a class=navbar-brand href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Destinations
+        </a>
+      
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="Croatia.html">Croatia</a>
+          <a class="dropdown-item" href="Portugal.html">Portugal</a>
+          <a class="dropdown-item" href="Philippines.html">Philipenes</a>
+          <a class="dropdown-item" href="Brazil.html">Brazil</a>
+          <a class="dropdown-item" href="Thailand.html">Thailand</a>
+          <a class="dropdown-item" href="Morocco.html">Morocco</a>
+          <a class="dropdown-item" href="berlin.html">Germany</a>
+          <a class="dropdown-item" href="Dubai.html">United Arab Emirates</a>
+        </div>
       </div>
+<!--ABOUT ME NAV BUTTON-->
+      <a class="navbar-brand" href="#">About Me</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     </nav>
 
+    
+<!--jumnotron title-->
     <div class="jumbotron jumbotron-fluid mt-4 jeff-size">
-        <div class="container">
-          <h1 class="display-4">Jeff's Travel Blog</h1>
+      <div class="container">
+          <h1 class="display-4">Take Me Back</h1>
           <p class="lead active">My travels over the past 2 years</p>
         </div>
     </div>
 
-
-    <div class="container">
-          <div class="row">
+<!--croatia button-->
+    <a href="Croatia.html"><div class="container">
+      <div class="row">
         <div class="col-6 mb-4">
-          <div class="card">
-            <img src="pics/croatia 2.jpg" class="card-img-top" alt="...">
+           <div class="card">
+           <img src="pics/croatia 2.jpg" class="card-img-top"
+           alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
+              <h5 class="card-title">Croatia</h5>
+              <p class="card-text">Maslinica</p>
+       </div>
+      </div></a>
+       
+          <!--lisbon button-->
+        <a href="Portugal.html"></div>
         <div class="col-6 mb-4">
           <div class="card">
             <img src="pics/lisbon wide.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">Portugal</h5>
+              <p class="card-text">Lisbon</p>
             </div>
-          </div>
+          </div></a>
+        
+          <!--philipenes button-->
         </div>
-        <div class="col-6 mb-4">
+        <a href="philippenes.html"><div class="col-6 mb-4">
           <div class="card">
             <img src="pics/philipenes wide.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <h5 class="card-title">Philipenes</h5>
+              <p class="card-text">Bohol</p>
             </div>
-          </div>
+          </div></a>
         </div>
-        <div class="col-6 mb-4">
+        <!--brazil button-->
+        <a href="Brazil.html"><div class="col-6 mb-4">
           <div class="card">
             <img src="pics/rio wide.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">Brazil</h5>
+              <p class="card-text">Rio de Janeiro</p>
             </div>
-          </div>
+          </div></a>
         </div>
     </div>
     </div>
@@ -80,28 +104,52 @@
 
   <div class="container">
       
-
+<!--thailand button-->
       <div class="row">
-          <div class="col-6 mb-4">
+          <a href="Thailand.html"><div class="col-6 mb-4">
             <div class="card">
               <img src="pics/thailand wide 2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title">Thailand</h5>
+                <p class="card-text">Khao Phang</p>
               </div>
-            </div>
+            </div></a>
           </div>
-      <div class="col-6 mb-4">
+          <!--moroco button-->
+     <A href="Morocco.html"><div class="col-6 mb-4">
             <div class="card">
               <img src="pics/moroco.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title">Morocco</h5>
+                <p class="card-text">Marrakech</p>
               </div>
-            </div>
+            </div></A>
       </div>
       </div>
   </div>
+
+<!--germany button-->
+<a href="berlin.html"><div class="container">
+  <div class="row">
+<div class="col-6 mb-4">
+   <div class="card">
+   <img src="pics/berlin wide 2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Germany</h5>
+      <p class="card-text">Berlin</p>
+    </div>
+  </div></a>
+
+  <!--Dubai button-->
+<a href="Dubai.html"></div>
+<div class="col-6 mb-4">
+  <div class="card">
+    <img src="pics/wide shot of al arab.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">United Arab Emirates</h5>
+      <p class="card-text">Dubai</p>
+    </div>
+  </div></a>
 
 
          <!-- Optional JavaScript -->
