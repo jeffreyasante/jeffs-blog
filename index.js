@@ -87,7 +87,7 @@ const number = 8;
 
 const boolean = true // or false
 
-const array = ["just numbers", "something here", "Another thign here", "Final thing"];
+const array_1 = ["just numbers", "something here", "Another thign here", "Final thing"];
 
 const obj = {
     prop: 1,
