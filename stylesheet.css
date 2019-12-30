@@ -33,8 +33,7 @@ body {
 }
 
 .dropdown:hover div.dropdown-menu{
-    text-decoration: none;
-        display: block;
+    display: block;
 }
 
 .dropdown-menu{
